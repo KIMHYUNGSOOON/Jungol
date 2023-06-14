@@ -1,4 +1,4 @@
-package q9022;
+package q120;
 
 import java.util.Scanner;
 
@@ -7,14 +7,14 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int i1 = sc.nextInt();
-		int i2 = sc.nextInt();
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
 		sc.close();
-		++i1;
-		int sum = i1 + i2;
-		i2--;
 
-		System.out.printf("a = %d, b = %d, c = %d", i1, i2, sum);
+		int max = (num1 > num2) ? num1 : num2;
+		int min = (num1 < num2) ? num1 : num2;
+		System.out.println(max - min);
+
 	}
 
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="q561/|q9025/" kind="src" path="Jungol/src"/>
+	<classpathentry kind="src" path="Jungol/src/q561"/>
+	<classpathentry kind="output" path="Jungol/bin"/>
+</classpath>
